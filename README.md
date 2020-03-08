@@ -5,4 +5,8 @@ You may need to recreate the dataset of face images of those people you want the
 
 The original source code use picamera library to capture frames from the camera. However, this library does not support to work on Jetson Nano at the moment, so I have modified the code to capture frames using OpenCV package.
 
+Note:
+Here are some tricks to increase the face recognition accuracy
+https://github.com/ageitgey/face_recognition/wiki/Face-Recognition-Accuracy-Problems
+
 Happy coding!
